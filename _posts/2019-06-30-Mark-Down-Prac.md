@@ -18,6 +18,7 @@ default
 *이미지는 느낌표가 붙는것에 유의*
 # 링크
 https://github.com/pluruel
+
 [Google](google.com)
 
 ## 안되는 패턴
@@ -25,6 +26,7 @@ https://github.com/pluruel
 *나중에 이유를 찾아보는게 좋을 것으로 보임*
 
 [a] [1]
+
 [1] : https://github.com/pluruel
 
 
