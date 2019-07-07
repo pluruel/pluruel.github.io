@@ -20,7 +20,7 @@ https://howchoo.com/g/zjbimjyxztr/how-to-remove-siri-from-the-touch-bar-on-the-m
 
 ### 아래와 같은 전체화면이 뜬다.
 ![ss2](/assets/2019-07-07-Customize-Macbook-TouchBar/2.png) 
-~~~생각보다 기능이 많다.~~~
+~~생각보다 기능이 많다.~~
 
 
 여기서 뭘 하라는지 당황할 수 있는데, 마우스를 움직이면 아래의 터치바까지 선택이 되므로, 시리를 빼고 먀음에 드는 것을 두면 끝.  
