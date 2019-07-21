@@ -60,4 +60,4 @@ Clean Code 책에서는 위와같은 Checked Exception을 줄이고 Unchecked Ex
 올바른 사용법을 준수해도 SRP의 위반이 있을 것이고 그렇지 않을 경우 Unchecked Exception을 부르는 대 참사가 생길 수 있을 것이다. 
 
 다만 Checked Exception을 사용해야만 하는 경우가 있다. API 설계단계에서 Interface method 혹은 abstract method를 선언했고, (그리고 그것을 API설계자 본인이 작성하지 않는 경우) 해당 method가 잠재적으로 Checked Exception이 요구될 때에는 충분히 유용하게 사용될 수 있으리라 여겨진다.  
-다만 이 때에는 SRP를 가능한 위반하지 않을 정도로 작은 범위내에서 선언해야 하며, 특정 범위 이상의 메소드에 까지 throws의 책임을 넘겨서는 안 된다.
+다만 이 때에는 SRP를 가능한 위반하지 않을 정도로 작은 범위내에서 선언해야 한다. 또한 특정 범위 이상의 메소드에 까지 throws의 책임을 넘겨서는 안 된다.
