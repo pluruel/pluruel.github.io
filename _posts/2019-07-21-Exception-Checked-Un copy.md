@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Checked Exception Unchecked Exception"
-date:   2019-07-10 11:24:10 +0900
+date:   2019-07-21 11:24:10 +0900
 categories: #java 
 ---
 # Checked Exception
