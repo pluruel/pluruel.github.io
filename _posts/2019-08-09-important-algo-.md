@@ -49,3 +49,27 @@ void combination2(int * arr) {
     }
 }
 ~~~
+
+# Permutation
+### 순열
+
+다양한 방법이 있는 듯 하지만, 이 방법이 가장 마음에 드는것 같다.
+
+
+
+~~~cpp
+
+void per(int* arr, int depth){
+    if(depth == 3) {
+        print(arr);
+        return;
+    }
+    for (int i = depth; i < 3; ++i) {
+        swap(arr[i], arr[depth]);
+        per(arr, depth + 1);
+        swap(arr[i], arr[depth]);
+    }
+}
+~~~
+
+
