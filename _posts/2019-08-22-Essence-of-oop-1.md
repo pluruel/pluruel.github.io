@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "c++ Sort"
-date:   2019-08-09 20:24:10 +0900
+title:  "Essence of OOP"
+date:   2019-08-23 20:24:10 +0900
 categories: #cpp #stl
 ---
 
