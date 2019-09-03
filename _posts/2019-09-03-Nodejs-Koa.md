@@ -2,7 +2,7 @@
 layout: post
 title:  "Nodejs + Koa"
 date:   2019-09-03 09:50:10 +0900
-categories: #js
+categories: #node
 ---
 
 # Koa
