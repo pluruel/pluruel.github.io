@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "js"
+title:  "다중 Git 계정 설정(SSH)"
 date:   2019-09-03 09:50:10 +0900
-categories: #js
+categories: #git
 ---
 
 # SSH 생성/저장

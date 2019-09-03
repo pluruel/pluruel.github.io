@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "js"
+title:  "Vagrant SSH 설정"
 date:   2019-08-26 16:50:10 +0900
-categories: #js
+categories: #VM
 ---
 # Vagrant 기반 가상 머신을 외부에서 접속하기
 
