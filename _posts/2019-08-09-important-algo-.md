@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "c++ Sort"
+title: "Combination/Permutation"
 date:   2019-08-09 21:24:10 +0900
 categories: #cpp #stl
 ---
