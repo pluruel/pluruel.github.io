@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Nodejs + Koa"
-date:   2019-09-04 09:50:10 +0900
+title:  "Redux"
+date:   2019-09-04 14:50:10 +0900
 categories: #node
 ---
 
@@ -46,6 +46,31 @@ app.use((ctx, next) => {
 # router
 
 ~~~js
+router.get('/', ctx=> {
+    ctx.body= 'home'
+})
+
+router.get('/about', ctx=>{
+    ctx.body = '소개'
+})
+// ${}를 쓰기 위해서는 '가 아닌 `를 씀에 주의할 것 
+router.get('/about/:name?', ctx=>{
+    const { name } = ctx.params;
+    ctx.body = name? `${name} 소개` : '소개'
+})
+
+router.get('/posts', ctx=>{
+    const { id } = ctx.query;
+    ctx.body = id? `포스트 # ${id}`: '포스트 아이디가 없음.'
+})
+
+
+app.use(router.routes()).use(router.allowedMethods())
+~~~
+코드를 분석해 보면 app.use 를 간결하게 줄였다고 볼 수 있겠다
+
+# REST
+
+~~~js
 
 ~~~
-
