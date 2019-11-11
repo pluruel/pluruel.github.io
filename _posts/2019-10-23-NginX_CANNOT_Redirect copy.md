@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "NginX 리다이렉트 명령이 듣지 않음"
-date:   2019-09-23 13:50:10 +0900
+date:   2019-10-23 13:50:10 +0900
 categories: #ssh
 ---
 
