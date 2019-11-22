@@ -5,7 +5,7 @@ date:   2019-11-22 13:50:10 +0900
 categories: #react #redux #js
 ---
 
-# 동작 정리
+# Issue
  
 Redux의 state를 구독한 상태의 input에 값을 입력 시 한글자만 입력해도 리랜더링이 일어남
 
